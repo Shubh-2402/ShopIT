@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node backend/server",
     "dev":"NODE_ENV=DEVELOPMENT nodemon backend/server",
-    "production":"NODE_ENV=PRODUCTION nodemon backend/server"
+    "production":"NODE_ENV=PRODUCTION nodemon backend/server",
+    "seeder":"node backend/utils/seeder.js"
   },
   "author": "Shubham Patil",
   "license": "ISC",
