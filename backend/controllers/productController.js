@@ -1,8 +1,9 @@
+import catchAsyncErrors from "../middlewares/catchAsyncErrors.js";
 import Product from "../models/product.js";
 import ErrorHandler from "../utils/errorHandler.js";
 
 // GET ALL PRODUCTS -> api/v1/products
-export const getAllProducts = async (req, res) => {
+export const getAllProducts = catchAsyncErrors(async (req, res, next) => {
   const products = await Product.find();
 
   res.status(200).json({
@@ -10,11 +11,11 @@ export const getAllProducts = async (req, res) => {
     count: products.length,
     products,
   });
-};
+});
 
 // GET SINGLE PRODUCT -> api/v1/product/:id
 
-export const getSingleProduct = async (req, res, next) => {
+export const getSingleProduct = catchAsyncErrors(async (req, res, next) => {
   const product = await Product.findById(req.params.id);
 
   if (!product) {
@@ -25,22 +26,22 @@ export const getSingleProduct = async (req, res, next) => {
     success: true,
     product,
   });
-};
+});
 
 // ADD NEW PRODUCT -> api/v1/admin/product/new
 
-export const addProduct = async (req, res) => {
+export const addProduct = catchAsyncErrors(async (req, res, next) => {
   const newProduct = await Product.create(req.body);
 
   res.status(201).json({
     success: true,
     newProduct,
   });
-};
+});
 
 // UPDATE A PRODUCT --> api/v1/admin/product/:id
 
-export const updateProduct = async (req, res, next) => {
+export const updateProduct = catchAsyncErrors(async (req, res, next) => {
   let product = await Product.findById(req.params.id);
 
   if (!product) {
@@ -56,11 +57,11 @@ export const updateProduct = async (req, res, next) => {
     success: true,
     product,
   });
-};
+});
 
 // DELETE A PRODUCT --> api/v1/admin/product/:id
 
-export const deleteProduct = async (req, res, next) => {
+export const deleteProduct = catchAsyncErrors(async (req, res, next) => {
   const product = await Product.findById(req.params.id);
 
   if (!product) {
@@ -72,4 +73,4 @@ export const deleteProduct = async (req, res, next) => {
     success: true,
     message: "Product Deleted",
   });
-};
+});

@@ -1,6 +1,8 @@
 import ErrorHandler from "../utils/errorHandler.js";
 
 const errorMiddleware = (err, req, res, next) => {
+  err.statusCode = err.statusCode || 500;
+
   if (process.env.NODE_ENV.trim() === "DEVELOPMENT") {
     res.status(err.statusCode).json({
       success: false,
