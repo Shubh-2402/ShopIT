@@ -2,7 +2,7 @@ import catchAsyncErrors from "../middlewares/catchAsyncErrors.js";
 import User from "../models/user.js";
 import sendToken from "../utils/jwtToken.js";
 
-export const registerUser = async (req, res, next) => {
+export const registerUser = catchAsyncErrors(async (req, res, next) => {
   const { name, email, password } = req.body;
 
   const user = await User.create({
@@ -16,9 +16,9 @@ export const registerUser = async (req, res, next) => {
   });
 
   sendToken(user, 200, res);
-};
+});
 
-export const loginUser = async (req, res, next) => {
+export const loginUser = catchAsyncErrors(async (req, res, next) => {
   const { email, password } = req.body;
 
   if (!email || !password) {
@@ -38,4 +38,18 @@ export const loginUser = async (req, res, next) => {
   }
 
   sendToken(user, 200, res);
-};
+});
+
+//Logout User --> /api/v1/logout
+
+export const logoutUser = catchAsyncErrors(async (req, res, next) => {
+  res.cookie("token", null, {
+    expires: new Date(Date.now()),
+    httpOnly: true,
+  });
+
+  res.status(200).json({
+    success: true,
+    message: "Logged out successfully",
+  });
+});
