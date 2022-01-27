@@ -30,6 +30,32 @@ const errorMiddleware = (err, req, res, next) => {
       error = new ErrorHandler(message, 400);
     }
 
+    //Handle Mongoose Duplicate key error
+
+    if (err.code === 11000) {
+      const message = `Duplicate ${Object.keys(err.keyvalue)} entered`;
+      error = new ErrorHandler(message, 400);
+    }
+
+    // Handle Wrong JWT Error
+
+    if (err.name === "JsonWebTokenError") {
+      const message = "JSON Web token is invalid. Please try again!!";
+      error = new ErrorHandler(message, 400);
+    }
+
+    //Handling expire JWT Error
+
+    if (err.name === "TokenExpiredError") {
+      const message = `JSON Web token is expired . Please try again!!`;
+      error = new ErrorHandler(message, 400);
+    }
+
+    if (err.name === "ValidationError") {
+      const message = Object.values(err.errors).map((value) => value.message);
+      error = new ErrorHandler(message, 400);
+    }
+
     res.status(error.statusCode).json({
       success: false,
       message: error.message || "Internal Server Error",
