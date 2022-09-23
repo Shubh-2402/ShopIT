@@ -6,7 +6,7 @@ import cookieParser from "cookie-parser";
 import errorMiddleware from "./middlewares/errors.js";
 import productRoute from "./routes/product.js";
 import authRoute from "./routes/auth.js";
-
+import orderRoute from "./routes/order.js";
 const app = express();
 
 app.use(express.json());
@@ -18,6 +18,7 @@ app.use(helmet());
 // API ROUTES
 app.use("/api/v1", productRoute);
 app.use("/api/v1", authRoute);
+app.use("/api/v1", orderRoute);
 
 // Middleware to handle errors
 app.use(errorMiddleware);
