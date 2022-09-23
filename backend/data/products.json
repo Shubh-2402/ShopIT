@@ -1,12 +1,12 @@
 [
     {
-        "name" : "SanDisk Ultra 128GB SDXC UHS-I Memory Card up to 80MB/s",
-        "price" : "45.89",
-        "description" : "Ultra-fast cards (2) to take better pictures and Full HD videos (1) with your compact to mid-range point-and-shoot cameras and camcorders. With SanDisk Ultra SDXC UHS-I cards you’ll benefit from faster downloads, high capacity, and better performance to capture and store 128GB (5) of high quality pictures and Full HD video (1). Take advantage of ultra-fast read speeds of up to 80MB/s (3) to save time moving photos and videos from the card to your computer. From a leader in flash memory storage, SanDisk Ultra SDXC UHS-I cards are compatible with SDHC and SDXC digital devices, and come with a 10-year limited warranty (6).",
+        "name" : "SanDisk Ultra microSD UHS-I Card 128GB, 120MB/s R",
+        "price" : "999",
+        "description" : "The SanDisk Ultra microSD UHS-I card gives you the freedom to shoot, save and share more than ever before. It is perfect for recording and watching Full HD video,(2) with room for even more hours of video. Transfer speeds of up to 120MB/s** help you move all your content blazingly fast—up to 1000 photos in just one minute.",
         "ratings" : 4.5,
         "images" : [{
-            "public_id" : "products/tzfsnrli3szrdnb4jgge",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/tzfsnrli3szrdnb4jgge.jpg"
+            "public_id" : "products/cfe688d3-a106-46da-803a-587f4f41d8a5.__CR0_0_3000_3000_PT0_SX300_V1____gtnygd",
+            "url" : "https://res.cloudinary.com/shubham2402/image/upload/v1663965690/products/cfe688d3-a106-46da-803a-587f4f41d8a5.__CR0_0_3000_3000_PT0_SX300_V1____gtnygd.jpg"
         }],
         "category" : "Electronics",
         "seller" : "Ebay",
@@ -15,14 +15,19 @@
         "reviews": []
     },
     {
-        "name" : "CAN USB FD Adapter (GC-CAN-USB-FD)",
-        "price" : "315.00",
-        "description" : "Monitor a CAN network, write a CAN program and communicate with industrial, medical, automotive or other CAN based device. Connect CAN FD and CAN networks to a computer via USB with the CAN USB FD adapter.",
+        "name" : "Portronics Adapto 62 POR-1062 USB Wall Adapter with 2.4A Fast Charging Single USB Port Without Cable for All iOS & Android Devices (White)",
+        "price" : "129",
+        "description" : "[2.4A SINGLE USB PORT]-The Charger is essentially a 2.4A wall Adaptor, that lets you charge all your USB devices with a single adaptor, to avoid the hassle of carrying multiple chargers without cable",
         "ratings" : 1.65,
         "images" : [{
-            "public_id" : "products/l2bd3hhy8dds1cxstuuz",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231284/products/l2bd3hhy8dds1cxstuuz.jpg"
-        }],
+            "public_id" : "products/51SO1G1JnJL._SL1200__dbjwnm.jpg",
+            "url" : "https://res.cloudinary.com/shubham2402/image/upload/v1663966043/products/51SO1G1JnJL._SL1200__dbjwnm.jpg"
+        },
+        {
+            "public_id" : "products/61KmjHeLRxL._SL1200__mmvuau",
+            "url" : "https://res.cloudinary.com/shubham2402/image/upload/v1663966097/products/61KmjHeLRxL._SL1200__mmvuau.jpg"
+        }
+        ],
         "category" : "Electronics",
         "seller" : "Amazon",
         "stock" : 0,
@@ -30,14 +35,19 @@
         "reviews": []
     },
     {
-        "name" : "CHARMOUNT Full Motion TV Wall Mount Swivel",
-        "price" : "26.99 ",
-        "description" : "CHARMOUNT TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg. Our tilt TV mount has a compatible faceplate that fits VESA 75X75mm (3x3). CHARMOUNT TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg. Our tilt TV mount has a compatible faceplate that fits VESA 75X75mm (3x3) CHARMOUNT TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg. Our tilt TV mount has a compatible faceplate that fits VESA 75X75mm (3x3).",
+        "name" : "Model-P4 6 Way Swivel Tilt Wall Mount 32-55-inch Full Motion Cantilever for LED,LCD and Plasma TV's",
+        "price" : "1400",
+        "description" : "TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg. Our tilt TV mount has a compatible faceplate that fits VESA 75X75mm (3x3).TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg. Our tilt TV mount has a compatible faceplate that fits VESA 75X75mm (3x3) CHARMOUNT TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg. Our tilt TV mount has a compatible faceplate that fits VESA 75X75mm (3x3).",
         "ratings" : 3.5,
         "images" : [{
-            "public_id" : "products/chairmount_nuubea",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/chairmount_nuubea.jpg"
-        }],
+            "public_id" : "products/71UZ8e-EXuL._SX569__vbryjz",
+            "url" : "https://res.cloudinary.com/shubham2402/image/upload/v1663966303/products/71UZ8e-EXuL._SX569__vbryjz.jpg"
+        },
+        {
+            "public_id" : "products/51rjna_i6xL._SX569__apsh2b.jpg",
+            "url" : "https://res.cloudinary.com/shubham2402/image/upload/v1663966352/products/51rjna_i6xL._SX569__apsh2b.jpg"
+        }
+        ],
         "category" : "Electronics",
         "seller" : "Amazon",
         "stock" : 1,
@@ -45,14 +55,19 @@
         "reviews": []
     },
     {
-        "name" : "Bose QuietComfort 35 II Wireless Bluetooth Headphones",
-        "price" : "299.00 ",
-        "description" : "What happens when you clear away the noisy distractions of the world? Concentration goes to the next level. You get deeper into your music, your work, or whatever you want to focus on. That’s the power of Bose QuietComfort 35 wireless headphones II. Put them on and get closer to what you’re most passionate about. And that’s just the beginning. QuietComfort 35 wireless headphones II are now enabled with Bose AR",
+        "name" : "Bose Quietcomfort 45 Bluetooth Wireless Over Ear Headphones with Mic Noise Cancelling - Triple Black",
+        "price" : "19990",
+        "description" : "Iconic quiet. Comfort. And sound. The first noise cancelling headphones are back, now with lightweight materials for premium comfort and proprietary acoustic technology for deep, clear audio. They’re not just an icon reborn – they’re the perfect balance of quiet, comfort, and sound.High-fidelity audio – The TriPort acoustic architecture offers depth and fullness. Volume-optimized Active EQ maintains balanced performance at any volume, so bass stays consistent when turned down and the music remains clear when turned up.",
         "ratings" : 4.5,
         "images" : [{
-            "public_id" : "products/headphones_t2afnb",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/headphones_t2afnb.jpg"
-        }],
+            "public_id" : "products/51JbsHSktkL._SX522__uwi1ee.jpg",
+            "url" : "https://res.cloudinary.com/shubham2402/image/upload/v1663966509/products/51JbsHSktkL._SX522__uwi1ee.jpg"
+        },
+        {
+            "public_id" : "products/81dkTK_pNrL._SX522__y3zbtg.jpg",
+            "url" : "https://res.cloudinary.com/shubham2402/image/upload/v1663966558/products/81dkTK_pNrL._SX522__y3zbtg.jpg"
+        }
+        ],
         "category" : "Headphones",
         "seller" : "Amazon",
         "stock" : 11,
@@ -61,12 +76,12 @@
     },
     {
         "name" : "Apple AirPods with Charging Case (Wired)",
-        "price" : "126.99 ",
+        "price" : "26900",
         "description" : "AirPods with Charging Case: More than 24 hours listening time, up to 18 hours talk time; AirPods (single charge): Up to 5 hours listening time, up to 3 hours talk time or 15 minutes in the case equals up to 3 hours listening time or up to 2 hours talk time.",
         "ratings" : 4.8,
         "images" : [{
-            "public_id" : "products/airpords_e5cqqr",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/airpords_e5cqqr.jpg"
+            "public_id" : "products/61SUj2aKoEL._SX679__fyyoti.jpg",
+            "url" : "https://res.cloudinary.com/shubham2402/image/upload/v1663966648/products/61SUj2aKoEL._SX679__fyyoti.jpg"
         }],
         "category" : "Electronics",
         "seller" : "Amazon",
@@ -75,13 +90,13 @@
         "reviews": []
     },
     {
-        "name" : "Cable Boom Microphone - Volume Control for Playstation PS4 or Xbox",
-        "price" : "27.99",
-        "description" : "DESIGN INFO - 3.5mm male to 2.5mm male audio cable adapter with Upgraded Flexible, Detachable Boom Mic which also enables rotary Volume Control and Mute Switch. SteelFlex Arm for perfect microphone positioning. INPUT COMPATIBILITY - Devices supporting 3.5mm audio output such as gaming PS4 / Xbox One controller, PC, Laptop, iPhone and Android Phone.",
+        "name" : "God Of War Ragnarok | Launch Edition | PS5 Game (PlayStation 5)",
+        "price" : "4999",
+        "description" : "Those who break fate: Atreus seeks knowledge to help him understand the prophecy of Loki and what role he is to play in Ragnarök. Kratos must decide whether he will be chained by the fear of repeating his mistakes or break free of his past to be the father Atreus needs. Weapons of war : The Leviathan Axe, Blades of Chaos and Guardian Shield return alongside a host of new abilities for both Kratos and Atreus. As they take on gods and monsters from across the Nine Realms, Kratos's deadly Spartan skills will be tested like never before as he fights to protect his family.",
         "ratings" : 4.1,
         "images" : [{
-            "public_id" : "products/eahhtj1bkn1k9gjgd3hn",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606233125/products/eahhtj1bkn1k9gjgd3hn.jpg"
+            "public_id" : "products/81E5a_Vym-L._SX569__dnwepi.jpg",
+            "url" : "https://res.cloudinary.com/shubham2402/image/upload/v1663966799/products/81E5a_Vym-L._SX569__dnwepi.jpg"
         }],
         "category" : "Accessories",
         "seller" : "Amazon",
@@ -90,13 +105,13 @@
         "reviews": []
     },
     {
-        "name" : "Nikon D3500 W/ AF-P DX NIKKOR 18-55mm f/3.5-5.6G VR Black ",
-        "price" : "496.95",
+        "name" : "Canon EOS 200D II 24.1MP Digital SLR Camera + EF-S 18-55mm f4 is STM Lens (Black)",
+        "price" : "54490",
         "description" : "You don't need to be a photographer to know a great photo when you see one. And you don't need to be a photographer to take a great photo—you just need the D3500. It's as easy to use as a point-and-shoot, but it takes beautiful DSLR photos and videos that get noticed. It feels outstanding in your hands, sturdy and balanced with controls where you want them. It's compact, durable and versatile, ideal for travel. And it works seamlessly with compatible smartphones, making it easier than ever to share your great photos. Even if you've never picked up a DSLR camera, you can take beautiful pictures with D3500.",
         "ratings" : 4.7,
         "images" : [{
-            "public_id" : "products/camera_ridc0i",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/camera_ridc0i.jpg"
+            "public_id" : "products/81cEKnH692L._SX522__nbhfdc.jpg",
+            "url" : "https://res.cloudinary.com/shubham2402/image/upload/v1663966907/products/81cEKnH692L._SX522__nbhfdc.jpg"
         }],
         "category" : "Cameras",
         "seller" : "Amazon",
@@ -105,13 +120,17 @@
         "reviews": []
     },
     {
-        "name" : "Apple MacBook Air (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray ",
-        "price" : "949.99",
-        "description" : "Stunning 13.3-inch Retina display with True Tone technology, Backlit Magic Keyboard and Touch ID, Tenth-generation, Intel Core i3 processor, Intel Iris Plus Graphics, Fast SSD storage, 8GB of memory, Stereo speakers with wider stereo sound",
+        "name" : "2020 Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey",
+        "price" : "90900",
+        "description" : "Powerful Performance – Take on everything from professional-quality editing to action-packed gaming with ease. The Apple M1 chip with an 8-core CPU delivers up to 3.5x faster performance than the previous generation while using way less power.Stunning 13.3-inch Retina display with True Tone technology, Backlit Magic Keyboard and Touch ID, Tenth-generation, Intel Core i3 processor, Intel Iris Plus Graphics, Fast SSD storage, 8GB of memory, Stereo speakers with wider stereo sound",
         "ratings" : 4.9,
         "images" : [{
-            "public_id" : "products/macbook_o2cj2k",
-            "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/macbook_o2cj2k.jpg"
+            "public_id" : "products/316ArzLeJ2L._SY445_SX342_QL70_FMwebp__pklxuy",
+            "url" : "https://res.cloudinary.com/shubham2402/image/upload/v1663967032/products/316ArzLeJ2L._SY445_SX342_QL70_FMwebp__pklxuy.webp"
+        },
+        {
+            "public_id" : "products/61uNK7su24L._SX679__mikeps",
+            "url" : "https://res.cloudinary.com/shubham2402/image/upload/v1663967085/products/61uNK7su24L._SX679__mikeps.jpg"
         }],
         "category" : "Laptops",
         "seller" : "Amazon",
@@ -120,22 +139,18 @@
         "reviews": []
     },
     {
-        "name" : "Kauffman Orchards Homegrown McIntosh Apples",
-        "price" : "2.75",
-        "description" : "McIntosh is a pretty red/green apple with white flesh Homegrown in Kauffman's orchard in healthy Lancaster County soil McIntosh apples are famous for snacking, pies, salads, and applesauce Protected with soft, high-density foam for safe shipping to your door Not for sale to California, Oregon, or Washington due to state laws governing fresh produce",
+        "name" : "Dhanshe's Farm Kashmir Fresh Apple Size A (6 pieces ) up to 150g",
+        "price" : "499",
+        "description" : "Apples are a good source of fiber and vitamin C.They also contain polyphenols, which may have numerous health benefits.One Apple a day keeps a Doctor Away",
         "ratings" : 5,
         "images" : [
             {
-                "public_id" : "products/wmoa49q9e70ze9xtcra2",
-                "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/wmoa49q9e70ze9xtcra2.jpg"
+                "public_id" : "products/41EjTA1IGhL_kf3ta0",
+                "url" : "https://res.cloudinary.com/shubham2402/image/upload/v1663967219/products/41EjTA1IGhL_kf3ta0.jpg"
             },
             {
-                "public_id" : "products/i0k1wdwi5hrpmzwxvsds",
-                "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/i0k1wdwi5hrpmzwxvsds.jpg" 
-            },
-            {
-                "public_id" : "products/bshmuo9qisfhz4azvnsd",
-                "url" : "https://res.cloudinary.com/shopit/image/upload/v1606231282/products/bshmuo9qisfhz4azvnsd.jpg"
+                "public_id" : "products/415_Km7BWGL._SX679__urrg1o",
+                "url" : "https://res.cloudinary.com/shubham2402/image/upload/v1663967245/products/415_Km7BWGL._SX679__urrg1o.jpg" 
             }
     ],
         "category" : "Food",

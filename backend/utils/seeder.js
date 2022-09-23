@@ -1,25 +1,28 @@
-import product from "../models/product.js"
-import dotenv from "dotenv"
+const Product = require('../models/product');
+const dotenv = require('dotenv');
+const connectDatabase = require('../config/database');
+
+const products = require('../data/products');
+
+// Setting dotenv file
 dotenv.config({ path: 'backend/config/config.env' })
-import connectDB from "../config/database.js"
 
-import { createRequire } from "module";
-const require = createRequire(import.meta.url);
-const products = require("../data/products.json");
+connectDatabase();
 
-connectDB();
-
-const seedProducts = async()=>{
+const seedProducts = async () => {
     try {
-        await product.deleteMany()
-        console.log("Products deleted");
 
-        await product.insertMany(products)
-        console.log("All products added");
-        process.exit()
+        await Product.deleteMany();
+        console.log('Products are deleted');
+
+        await Product.insertMany(products)
+        console.log('All Products are added.')
+
+        process.exit();
+
     } catch (error) {
-        console.log(error.message)
-        process.exit()
+        console.log(error.message);
+        process.exit();
     }
 }
 
