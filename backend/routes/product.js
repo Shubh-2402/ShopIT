@@ -1,8 +1,11 @@
 import express from "express";
 import {
   addProduct,
+  createProductReview,
   deleteProduct,
+  deleteReview,
   getAllProducts,
+  getProductReviews,
   getSingleProduct,
   updateProduct,
 } from "../controllers/productController.js";
@@ -30,5 +33,11 @@ router.delete(
   AuthorizeRoles("admin"),
   deleteProduct
 );
+
+router.put("/review", isAuthenticated, createProductReview);
+
+router.get("/reviews", isAuthenticated, getProductReviews);
+
+router.delete("/reviews", isAuthenticated, deleteReview);
 
 export default router;
