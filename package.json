@@ -7,7 +7,8 @@
     "start": "node backend/server",
     "dev": "NODE_ENV=DEVELOPMENT nodemon backend/server",
     "production": "NODE_ENV=PRODUCTION nodemon backend/server",
-    "seeder": "node backend/utils/seeder.js"
+    "seeder": "node backend/utils/seeder.js",
+    "heroku-postbuild" : "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Shubham Patil",
   "license": "ISC",
@@ -20,7 +21,7 @@
     "express": "^4.17.1",
     "express-fileupload": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.10.16",
+    "mongoose": "^5.13.15",
     "nodemailer": "^6.4.16",
     "stripe": "^8.128.0",
     "validator": "^13.1.17"
@@ -36,4 +37,6 @@
       "prettier --write"
     ]
   }
+
 }
+
